@@ -1,8 +1,24 @@
 .grid--container{
-    background-image: url("/grid.svg");
+    background-image: url("grid.svg");
     width: 100%;
     aspect-ratio: 3 / 2;
+    
 }
+
+.lightgreen{
+    background-color: #92A436;
+    /* opacity: 50%; */
+}
+
+.darkgreen{
+    background-color: #6C8029;
+    /* opacity: 50%; */
+}
+
+.zone1{
+    background-color: white;
+}
+
 
 table{
     width: 100%;
@@ -16,7 +32,7 @@ td{
 }
 
 td:has(input:checked){
-    background: red;
+    background: #ED1C24;
 }
 
 input{
