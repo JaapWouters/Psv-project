@@ -1,23 +1,25 @@
 .grid--container{
-    background-image: url("grid.svg");
+    background-image: url("grid1.svg");
     width: 100%;
     aspect-ratio: 3 / 2;
+    background-size: cover;
+    background-position: center;
     
 }
 
-.lightgreen{
+/* .lightgreen{
     background-color: #92A436;
-    /* opacity: 50%; */
+    opacity: 30%;
 }
 
 .darkgreen{
     background-color: #6C8029;
-    /* opacity: 50%; */
-}
+    opacity: 30%;
+} */
 
-.zone1{
+/* .zone1{
     background-color: white;
-}
+} */
 
 
 table{
